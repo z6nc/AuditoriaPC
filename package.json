@@ -1,0 +1,15 @@
+{
+  "name": "auditoria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx caxa --input . --output auditor-arx.exe -- \"{{caxa}}/node.exe\" \"{{caxa}}/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "bin": "index.js"
+}
